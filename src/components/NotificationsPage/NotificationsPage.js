@@ -3,7 +3,7 @@ import NotificationsList from './NotificationsList/NotificationsList';
 
 function NotificationsPage() {
   return (
-    <div>
+    <div className="pd-md grid place-center gap-md">
       <NotificationsHeader />
       <NotificationsList />
     </div>

@@ -1,4 +1,4 @@
-import './App.css';
+import './App.scss';
 import NotificationsPage from './components/NotificationsPage/NotificationsPage';
 
 function App() {

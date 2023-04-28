@@ -1,0 +1,44 @@
+@use '_reset.scss';
+@use '_globals.scss';
+
+body {
+  font-family: 'Plus Jarakta Sans', sans-serif;
+  font-size: 16px;
+}
+
+.pd-sm {
+  padding: 1rem;
+}
+
+.pd-md {
+  padding: 2rem;
+}
+
+.grid {
+  display: grid;
+}
+
+.place-center {
+  place-content: center;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.gap-sm {
+  gap: 0.5rem;
+}
+
+.gap-md {
+  gap: 1rem;
+}
+
+.space-between {
+  justify-content: space-between;
+}
