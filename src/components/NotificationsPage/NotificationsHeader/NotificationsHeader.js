@@ -1,6 +1,6 @@
 import './NotificationsHeader.scss';
 
-function NotificationsHeader() {
+function NotificationsHeader(props) {
   return (
     <div className="flex-row gap-md space-between align-center">
       <div className="flex-row gap-sm align-center">

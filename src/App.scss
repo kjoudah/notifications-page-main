@@ -2,8 +2,9 @@
 @use '_globals.scss';
 
 body {
-  font-family: 'Plus Jarakta Sans', sans-serif;
+  font-family: 'PlusJaraktaSans', sans-serif;
   font-size: 16px;
+  background-color: var(--neutral-grayish-blue-200);
 }
 
 .pd-sm {
@@ -36,6 +37,9 @@ body {
   align-items: center;
 }
 
+.flex-wrap {
+  flex-wrap: wrap;
+}
 .gap-sm {
   gap: 0.5rem;
 }

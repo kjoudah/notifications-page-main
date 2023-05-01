@@ -15,7 +15,8 @@
 .mark-read-button {
   all: unset;
   cursor: pointer;
-  color: var(--neutral-grayish-blue-900);
+  font-weight: 600;
+  color: var(--neutral-grayish-blue-800);
 
   &:hover,
   &:focus {

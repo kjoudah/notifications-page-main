@@ -1,17 +1,63 @@
 .notification {
-  background-color: var(--neutral-grayish-blue-200);
+  padding: 1rem 2rem;
+  color: var(--neutral-grayish-blue-900);
+
+  &.read {
+    background-color: var(--neutral-grayish-blue-200);
+  }
 }
 
 .notification-icon {
-  display: block;
+  display: inline-block;
+  margin-inline: 0.5rem;
   width: 10px;
   aspect-ratio: 1/1;
   clip-path: circle();
   background-color: var(--primary-red);
 }
 
+.notification-name {
+  cursor: pointer;
+  text-decoration: none;
+  font-weight: 700;
+  color: var(--neutral-dark-blue);
+
+  &:hover,
+  &:focus {
+    color: var(--primary-blue);
+  }
+}
+
+.commented-on-image {
+  margin-left: auto;
+}
+
+.notification-type-text {
+  margin-inline: 0.5rem;
+}
+
 .private-message-content {
-  // all: unset;
-  // width: 100%;
-  border: 1px solid red;
+  border: 1px solid var(--neutral-grayish-blue-600);
+  border-radius: 0.5rem;
+}
+
+.notification-date {
+  color: var(--neutral-grayish-blue-800);
+}
+
+.notification-outcome-text {
+  cursor: pointer;
+  // color: var(--neutral-grayish-blue-900);
+  font-weight: 600;
+}
+
+.link {
+  cursor: pointer;
+}
+
+.link:hover,
+.link:focus,
+a:visited {
+  color: var(--primary-blue);
+  transition: 0.1s color ease-in-out;
 }
