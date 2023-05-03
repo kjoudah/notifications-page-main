@@ -1,8 +1,9 @@
 .notification {
   padding: 1rem 2rem;
+  border-radius: 1rem;
   color: var(--neutral-grayish-blue-900);
 
-  &.read {
+  &.unread {
     background-color: var(--neutral-grayish-blue-200);
   }
 }
@@ -30,6 +31,10 @@
 
 .commented-on-image {
   margin-left: auto;
+  img {
+    width: 50px;
+    height: 50px;
+  }
 }
 
 .notification-type-text {
@@ -39,6 +44,14 @@
 .private-message-content {
   border: 1px solid var(--neutral-grayish-blue-600);
   border-radius: 0.5rem;
+  cursor: pointer;
+
+  &:hover,
+  &:focus {
+    background-color: var(--neutral-grayish-blue-200);
+    transition: all 0.1s ease-in-out;
+    color: var(--neutral-grayish-blue-900);
+  }
 }
 
 .notification-date {
@@ -47,17 +60,10 @@
 
 .notification-outcome-text {
   cursor: pointer;
-  // color: var(--neutral-grayish-blue-900);
   font-weight: 600;
-}
 
-.link {
-  cursor: pointer;
-}
-
-.link:hover,
-.link:focus,
-a:visited {
-  color: var(--primary-blue);
-  transition: 0.1s color ease-in-out;
+  &:hover,
+  &:active {
+    color: var(--primary-blue);
+  }
 }

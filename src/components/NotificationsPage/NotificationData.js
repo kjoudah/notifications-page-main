@@ -21,6 +21,7 @@ export const notificationsJson = [
       href: '',
     },
     date: '1m ago',
+    unread: true,
   },
   {
     id: 2,
@@ -31,6 +32,7 @@ export const notificationsJson = [
     },
     text: 'followed you',
     date: '5m ago',
+    unread: true,
   },
   {
     id: 3,
@@ -45,6 +47,7 @@ export const notificationsJson = [
       href: '#',
     },
     date: '5 days ago',
+    unread: true,
   },
   {
     id: 4,
@@ -55,10 +58,11 @@ export const notificationsJson = [
     },
     text: 'sent you a private message',
     private_message: {
-      text: "Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and I'm already having ots of fun and improving my game.",
+      text: "Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and I'm already having lots of fun and improving my game.",
       href: '#',
     },
     date: '5 days ago',
+    unread: false,
   },
   {
     id: 5,
@@ -68,11 +72,12 @@ export const notificationsJson = [
       src: kimberlySmithImage,
     },
     text: 'commented on your picture',
-    commented_on_Image: {
+    commented_on_image: {
       src: commentedOnImage,
       href: '#',
     },
     date: '1 week ago',
+    unread: false,
   },
   {
     id: 6,
@@ -87,6 +92,7 @@ export const notificationsJson = [
       href: '#',
     },
     date: '2 week ago',
+    unread: false,
   },
   {
     id: 7,
@@ -101,5 +107,6 @@ export const notificationsJson = [
       href: '#',
     },
     date: '2 week ago',
+    unread: false,
   },
 ];
